@@ -1,0 +1,12 @@
+.{
+    .name = "clap",
+    .version = "1.2.2",
+    .minimum_zig_version = "0.14.0",
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+        "README.md",
+    },
+}

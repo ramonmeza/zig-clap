@@ -1,0 +1,3 @@
+[submodule "deps/clap"]
+	path = deps/clap
+	url = git@github.com:free-audio/clap.git
