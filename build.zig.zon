@@ -1,13 +1,19 @@
 .{
-    .name = "clap",
-    .version = "1.2.2",
     .minimum_zig_version = "0.14.0",
+
+    .name = "clap",
+    .version = "1.1.2",
+
     .dependencies = .{},
+
     .paths = .{
-        "LICENSE",
-        "README.md",
-        // "build.zig",
-        // "build.zig.zon",
-        // "src",
+        "build.zig",
+        "build.zig.zon",
+
+        "clap/clap.zig",
+        "clap/entry.zig",
+        "clap/version.zig",
+
+        "plugin/plugin.zig",
     },
 }
